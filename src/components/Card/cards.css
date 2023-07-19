@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  cursor: pointer;
+}
+
+.Card img {
+  width: 300px;
+}
+
+.Card span {
+  font-weight: 600;
+}
+
+.Card p {
+  font-size: medium;
+  text-align: justify;
+  line-height: 160%;
+}

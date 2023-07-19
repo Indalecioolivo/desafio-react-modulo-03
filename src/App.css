@@ -1,0 +1,84 @@
+.app {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-image: linear-gradient(to bottom, #3b3736, #5e5d5b);
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+}
+
+header {
+  border-bottom: 0.5px solid lightgrey;
+  height: 13%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .header-left {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .header-right {
+  width: 20%;
+  height: 100%;
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+}
+
+header .header-right img {
+  width: 12%;
+  border-radius: 50%;
+}
+
+main {
+  height: 70%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main h4 {
+  width: 65.5%;
+}
+
+main hr {
+  border-style: none;
+  height: 1px;
+  background-color: lightgray;
+  width: 65.5%;
+  margin: 15px;
+}
+
+main .to-cards {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
